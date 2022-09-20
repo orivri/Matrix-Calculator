@@ -1,0 +1,73 @@
+﻿  LoadingMatrix.cpp
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\LoadingMatrix.cpp(19,103): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+  main.cpp
+  Manipulators.cpp
+  Matrix.cpp
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Matrix.cpp(117,29): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Matrix.cpp(117,32): warning C4244: 'argument': conversion from 'double' to 'const unsigned __int64', possible loss of data
+  Sample data .cpp
+  Structures.cpp
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(6,1): error C2011: 'operation': 'enum' type redefinition
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(11,1): error C2011: 'cmdArgs': 'struct' type redefinition
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(19,1): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(18,9): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(22,12): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(23,12): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(24,12): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(25,12): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(36,24): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(42,24): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(48,24): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(53,24): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(61,16): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(62,16): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(63,16): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(64,16): error C2027: use of undefined type 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(13): message : see declaration of 'cmdArgs'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(71,30): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(71,43): error C2065: 'not_supported': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(77,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(77,27): error C2065: 'add': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(81,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(81,32): error C2065: 'subtract': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(85,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(85,33): error C2065: 'transpose': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(89,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(89,32): error C2065: 'multiply': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(93,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(93,31): error C2065: 'inverse': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(97,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(97,35): error C2065: 'determinant': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(101,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(101,32): error C2065: 'cofactor': undeclared identifier
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(105,24): error C2027: use of undefined type 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.h(9): message : see declaration of 'operation'
+C:\Users\SOLO LEARN\source\repos\polsl-aei-fcp-ang\73513521-gr07-repo\project\Matrix Calculator Solomon Orivri\Structures.cpp(105,37): error C2065: 'not_supported': undeclared identifier
+  Generating Code...

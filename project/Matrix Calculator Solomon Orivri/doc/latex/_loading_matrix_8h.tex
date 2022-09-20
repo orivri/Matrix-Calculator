@@ -1,0 +1,137 @@
+\hypertarget{_loading_matrix_8h}{}\doxysection{Loading\+Matrix.\+h File Reference}
+\label{_loading_matrix_8h}\index{LoadingMatrix.h@{LoadingMatrix.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for Loading\+Matrix.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{_loading_matrix_8h_ac4783f5ea7bf6fb81a08239b0c1c0e7b}{LOADINGMATRIX}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{_loading_matrix_8h_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char $\ast$argv\mbox{[}$\,$\mbox{]})
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_loading_matrix_8h_a9e50ce57c47a6bc6bf165b1ad6b56720}{read\+\_\+matrix}} (std\+::string source)
+\item 
+void \mbox{\hyperlink{_loading_matrix_8h_a96c3e79925de66a77b8cc5efad8dd13f}{debug\+Matrix}} (const std\+::vector$<$ std\+::vector$<$ double $>$ $>$ vect)
+\item 
+void \mbox{\hyperlink{_loading_matrix_8h_a703f3d76acab5a7bc035fff0daf4b93c}{save\+\_\+solution}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ solution, std\+::string \&output\+File)
+\item 
+void \mbox{\hyperlink{_loading_matrix_8h_a0ae347296316314a4996fc8907047e7b}{save\+\_\+solution}} (double solution, std\+::string \&output\+File)
+\item 
+void \mbox{\hyperlink{_loading_matrix_8h_aaa51e5696c700f0154961d187983a37e}{save\+\_\+solution}} (std\+::string input, std\+::string \&output\+File)
+\item 
+void \mbox{\hyperlink{_loading_matrix_8h_a4d8acbc6d0aeff3adc53c2457949369b}{Create\+\_\+matrix}} (std\+::string \&file\+\_\+name, int nrows, int ncols)
+\item 
+const double \mbox{\hyperlink{_loading_matrix_8h_a2e369957c11aa76ad8fdcc1c5c0a59e3}{random\+\_\+value}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{_loading_matrix_8h_ac4783f5ea7bf6fb81a08239b0c1c0e7b}\label{_loading_matrix_8h_ac4783f5ea7bf6fb81a08239b0c1c0e7b}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!LOADINGMATRIX@{LOADINGMATRIX}}
+\index{LOADINGMATRIX@{LOADINGMATRIX}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{LOADINGMATRIX}{LOADINGMATRIX}}
+{\footnotesize\ttfamily \#define LOADINGMATRIX}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_loading_matrix_8h_a4d8acbc6d0aeff3adc53c2457949369b}\label{_loading_matrix_8h_a4d8acbc6d0aeff3adc53c2457949369b}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!Create\_matrix@{Create\_matrix}}
+\index{Create\_matrix@{Create\_matrix}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{Create\_matrix()}{Create\_matrix()}}
+{\footnotesize\ttfamily void Create\+\_\+matrix (\begin{DoxyParamCaption}\item[{std\+::string \&}]{file\+\_\+name,  }\item[{int}]{nrows,  }\item[{int}]{ncols }\end{DoxyParamCaption})}
+
+print generates and writes a matrix of random values into a file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::string\& file\+\_\+name pointer to the file been written into \\
+\hline
+{\em cconst} & int nrows number of rows the matrix been written into file should have \\
+\hline
+{\em cconst} & int ncols number of columns the matrix been written into file should have \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_loading_matrix_8h_a96c3e79925de66a77b8cc5efad8dd13f}\label{_loading_matrix_8h_a96c3e79925de66a77b8cc5efad8dd13f}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!debugMatrix@{debugMatrix}}
+\index{debugMatrix@{debugMatrix}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{debugMatrix()}{debugMatrix()}}
+{\footnotesize\ttfamily void debug\+Matrix (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{vect }\end{DoxyParamCaption})}
+
+The function prints a matrix on console 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$double$>$$>$ vect vector of vector double printed to the output \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_loading_matrix_8h_a0ddf1224851353fc92bfbff6f499fa97}\label{_loading_matrix_8h_a0ddf1224851353fc92bfbff6f499fa97}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!main@{main}}
+\index{main@{main}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+This is the main function of the program int argc The number of entries in the argv array. argv An array of pointers to strings that contain the arguments to the program. \mbox{\Hypertarget{_loading_matrix_8h_a2e369957c11aa76ad8fdcc1c5c0a59e3}\label{_loading_matrix_8h_a2e369957c11aa76ad8fdcc1c5c0a59e3}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!random\_value@{random\_value}}
+\index{random\_value@{random\_value}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{random\_value()}{random\_value()}}
+{\footnotesize\ttfamily const double random\+\_\+value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+The function generates random values between 50 and 1 \begin{DoxyReturn}{Returns}
+double distro(engine) returns a random value of type double 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_loading_matrix_8h_a9e50ce57c47a6bc6bf165b1ad6b56720}\label{_loading_matrix_8h_a9e50ce57c47a6bc6bf165b1ad6b56720}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!read\_matrix@{read\_matrix}}
+\index{read\_matrix@{read\_matrix}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{read\_matrix()}{read\_matrix()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ read\+\_\+matrix (\begin{DoxyParamCaption}\item[{std\+::string}]{source }\end{DoxyParamCaption})}
+
+The function reads a matrix of random number from a file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::string\& file\+\_\+name pointer to the file been read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$ std\+::vector$<$double$>$$>$ read\+\_\+matrix returns a vector of vector matrix containing the read matrix 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_loading_matrix_8h_a0ae347296316314a4996fc8907047e7b}\label{_loading_matrix_8h_a0ae347296316314a4996fc8907047e7b}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!save\_solution@{save\_solution}}
+\index{save\_solution@{save\_solution}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{save\_solution()}{save\_solution()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily void save\+\_\+solution (\begin{DoxyParamCaption}\item[{double}]{solution,  }\item[{std\+::string \&}]{output\+File }\end{DoxyParamCaption})}
+
+The function saves the solution form a matrix operation to a file 
+\begin{DoxyParams}{Parameters}
+{\em double} & solution double with value to the printed to file \\
+\hline
+{\em std\+::string\&} & output\+File pointer to the file been saved to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_loading_matrix_8h_aaa51e5696c700f0154961d187983a37e}\label{_loading_matrix_8h_aaa51e5696c700f0154961d187983a37e}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!save\_solution@{save\_solution}}
+\index{save\_solution@{save\_solution}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{save\_solution()}{save\_solution()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily void save\+\_\+solution (\begin{DoxyParamCaption}\item[{std\+::string}]{input,  }\item[{std\+::string \&}]{output\+File }\end{DoxyParamCaption})}
+
+The function saves the solution form a matrix operation to a file 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & file\+\_\+name string with error message to the printed to file \\
+\hline
+{\em std\+::string} & \&output\+File pointer to the file been saved to \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_loading_matrix_8h_a703f3d76acab5a7bc035fff0daf4b93c}\label{_loading_matrix_8h_a703f3d76acab5a7bc035fff0daf4b93c}} 
+\index{LoadingMatrix.h@{LoadingMatrix.h}!save\_solution@{save\_solution}}
+\index{save\_solution@{save\_solution}!LoadingMatrix.h@{LoadingMatrix.h}}
+\doxysubsubsection{\texorpdfstring{save\_solution()}{save\_solution()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily void save\+\_\+solution (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{solution,  }\item[{std\+::string \&}]{output\+File }\end{DoxyParamCaption})}
+
+The function saves the solution form a matrix operation to a file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::string\& file\+\_\+name pointer to the file been saved to \\
+\hline
+{\em const} & std\+::vector$<$ std\+::vector$<$double$>$$>$ solution vector of vector matrix containing the matrix to be saved to file \\
+\hline
+\end{DoxyParams}

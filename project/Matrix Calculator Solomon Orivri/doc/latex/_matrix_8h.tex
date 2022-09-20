@@ -1,0 +1,128 @@
+\hypertarget{_matrix_8h}{}\doxysection{Matrix.\+h File Reference}
+\label{_matrix_8h}\index{Matrix.h@{Matrix.h}}
+{\ttfamily \#include $<$vector$>$}\newline
+Include dependency graph for Matrix.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{_matrix_8h_af2e813b8407230c527a35d456516c551}{Determinant}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_a5dec584e0611ab9f7a1c569129511391}{Add}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A, std\+::vector$<$ std\+::vector$<$ double $>$ $>$ B)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_a6e8adeaa98acdffebe06a9d885fb29f1}{Subtract}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A, std\+::vector$<$ std\+::vector$<$ double $>$ $>$ B)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_a5582670d407deb29bc5de8887b1e4847}{Multiply}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A, std\+::vector$<$ std\+::vector$<$ double $>$ $>$ B)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_af9266226e0ebe7bd1bb7b009f1c563d1}{Transpose}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_ae24f9a62b8bc6d8b45fe58a46e37ea63}{Cofactor}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$A)
+\item 
+std\+::vector$<$ std\+::vector$<$ double $>$ $>$ \mbox{\hyperlink{_matrix_8h_a5fba5ffdae0e12242728d0ff4e4701eb}{Inverse}} (std\+::vector$<$ std\+::vector$<$ double $>$ $>$ A)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_matrix_8h_a5dec584e0611ab9f7a1c569129511391}\label{_matrix_8h_a5dec584e0611ab9f7a1c569129511391}} 
+\index{Matrix.h@{Matrix.h}!Add@{Add}}
+\index{Add@{Add}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Add()}{Add()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Add (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A,  }\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{B }\end{DoxyParamCaption})}
+
+The function calculates the addition of two matrix and returns a solution to the file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$A first matrix from file \\
+\hline
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ B second matrix from file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$int$>$$>$ solution solution from the add operation 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_matrix_8h_ae24f9a62b8bc6d8b45fe58a46e37ea63}\label{_matrix_8h_ae24f9a62b8bc6d8b45fe58a46e37ea63}} 
+\index{Matrix.h@{Matrix.h}!Cofactor@{Cofactor}}
+\index{Cofactor@{Cofactor}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Cofactor()}{Cofactor()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Cofactor (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A }\end{DoxyParamCaption})}
+
+The function takes a matrix and returns the cofactor of the matrix 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ matrix The input matrix to be transposed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$int$>$$>$ solution returns the cofactor matrix 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_matrix_8h_af2e813b8407230c527a35d456516c551}\label{_matrix_8h_af2e813b8407230c527a35d456516c551}} 
+\index{Matrix.h@{Matrix.h}!Determinant@{Determinant}}
+\index{Determinant@{Determinant}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Determinant()}{Determinant()}}
+{\footnotesize\ttfamily double Determinant (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A }\end{DoxyParamCaption})}
+
+The function calculates the determinate of a matrix and returns a solution 
+\begin{DoxyParams}{Parameters}
+{\em std\+::vector$<$std\+::vector$<$double$>$$>$} & A a vector of vector matrix containing the values read from file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Determinant returns the value of the determinant 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_matrix_8h_a5fba5ffdae0e12242728d0ff4e4701eb}\label{_matrix_8h_a5fba5ffdae0e12242728d0ff4e4701eb}} 
+\index{Matrix.h@{Matrix.h}!Inverse@{Inverse}}
+\index{Inverse@{Inverse}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Inverse()}{Inverse()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Inverse (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A }\end{DoxyParamCaption})}
+
+The function calculates the inverse of a matrix and returns a matrix of vector containing the solution 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ matrix The input matrix \\
+\hline
+{\em std\+::string\&} & output\+File pointer to the file where output solution from the operation is saved \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_matrix_8h_a5582670d407deb29bc5de8887b1e4847}\label{_matrix_8h_a5582670d407deb29bc5de8887b1e4847}} 
+\index{Matrix.h@{Matrix.h}!Multiply@{Multiply}}
+\index{Multiply@{Multiply}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Multiply()}{Multiply()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Multiply (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A,  }\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{B }\end{DoxyParamCaption})}
+
+The function multiplies two matrix and returns a matrix of vector containing the solution to the file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ A first Vector of matrix to be multiplied \\
+\hline
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ B second vector of matrix to be multiplied \\
+\hline
+{\em std\+::string\&} & output\+File pointer to the file where output solution from the operation is saved \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_matrix_8h_a6e8adeaa98acdffebe06a9d885fb29f1}\label{_matrix_8h_a6e8adeaa98acdffebe06a9d885fb29f1}} 
+\index{Matrix.h@{Matrix.h}!Subtract@{Subtract}}
+\index{Subtract@{Subtract}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Subtract()}{Subtract()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Subtract (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A,  }\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{B }\end{DoxyParamCaption})}
+
+The function calculates the difference of two matrix and returns a solution to the file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ matrix1 first matrix from file \\
+\hline
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ matrix2 second matrix from file \\
+\hline
+{\em std\+::string\&} & output\+File pointer to the file where output solution from the operation is saved \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_matrix_8h_af9266226e0ebe7bd1bb7b009f1c563d1}\label{_matrix_8h_af9266226e0ebe7bd1bb7b009f1c563d1}} 
+\index{Matrix.h@{Matrix.h}!Transpose@{Transpose}}
+\index{Transpose@{Transpose}!Matrix.h@{Matrix.h}}
+\doxysubsubsection{\texorpdfstring{Transpose()}{Transpose()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::vector$<$ double $>$ $>$ Transpose (\begin{DoxyParamCaption}\item[{std\+::vector$<$ std\+::vector$<$ double $>$ $>$}]{A }\end{DoxyParamCaption})}
+
+The function takes a matrix and returns the matrix transpose to the file 
+\begin{DoxyParams}{Parameters}
+{\em const} & std\+::vector$<$std\+::vector$<$int$>$$>$ matrix The input matrix to be transposed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::vector$<$std\+::vector$<$int$>$$>$ solution returns the matrix transpose 
+\end{DoxyReturn}

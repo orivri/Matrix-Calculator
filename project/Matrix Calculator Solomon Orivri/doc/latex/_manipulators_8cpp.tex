@@ -1,0 +1,66 @@
+\hypertarget{_manipulators_8cpp}{}\doxysection{Manipulators.\+cpp File Reference}
+\label{_manipulators_8cpp}\index{Manipulators.cpp@{Manipulators.cpp}}
+{\ttfamily \#include $<$sstream$>$}\newline
+{\ttfamily \#include $<$algorithm$>$}\newline
+{\ttfamily \#include $<$iomanip$>$}\newline
+{\ttfamily \#include \char`\"{}Manipulators.\+h\char`\"{}}\newline
+Include dependency graph for Manipulators.\+cpp\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{_manipulators_8cpp_ab7bf9fe394fa8ec31091f712e3d9f32e}{round\+Double}} (double \&solution, int \&precise)
+\item 
+std\+::string \mbox{\hyperlink{_manipulators_8cpp_a75352119adb7a09266bb19ecafd5f5eb}{Removehash}} (std\+::string \&line, std\+::string \&hash)
+\item 
+std\+::string \mbox{\hyperlink{_manipulators_8cpp_aa2bbcc5c129c1991a60dd179c8b3a296}{Replace}} (std\+::string \&line, char \&delim)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{_manipulators_8cpp_a75352119adb7a09266bb19ecafd5f5eb}\label{_manipulators_8cpp_a75352119adb7a09266bb19ecafd5f5eb}} 
+\index{Manipulators.cpp@{Manipulators.cpp}!Removehash@{Removehash}}
+\index{Removehash@{Removehash}!Manipulators.cpp@{Manipulators.cpp}}
+\doxysubsubsection{\texorpdfstring{Removehash()}{Removehash()}}
+{\footnotesize\ttfamily std\+::string Removehash (\begin{DoxyParamCaption}\item[{std\+::string \&}]{line,  }\item[{std\+::string \&}]{hash }\end{DoxyParamCaption})}
+
+The function evaluates a line and extraxts line if the variable in the memory location @hash is encountered 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string} & \&line ampersand to address of line to be evaluated \\
+\hline
+{\em std\+::string} & \&hash variable of character that triggers an extraction of line \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string Line returns a string with substring from the line 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_manipulators_8cpp_aa2bbcc5c129c1991a60dd179c8b3a296}\label{_manipulators_8cpp_aa2bbcc5c129c1991a60dd179c8b3a296}} 
+\index{Manipulators.cpp@{Manipulators.cpp}!Replace@{Replace}}
+\index{Replace@{Replace}!Manipulators.cpp@{Manipulators.cpp}}
+\doxysubsubsection{\texorpdfstring{Replace()}{Replace()}}
+{\footnotesize\ttfamily std\+::string Replace (\begin{DoxyParamCaption}\item[{std\+::string \&}]{line,  }\item[{char \&}]{delim }\end{DoxyParamCaption})}
+
+The function evaluates a line and replaces delimeters or separators with white space 
+\begin{DoxyParams}{Parameters}
+{\em std\+::string\&} & line ampersand to address of line to be evaluated \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+std\+::string Line returns a string with the edited line 
+\end{DoxyReturn}
+\mbox{\Hypertarget{_manipulators_8cpp_ab7bf9fe394fa8ec31091f712e3d9f32e}\label{_manipulators_8cpp_ab7bf9fe394fa8ec31091f712e3d9f32e}} 
+\index{Manipulators.cpp@{Manipulators.cpp}!roundDouble@{roundDouble}}
+\index{roundDouble@{roundDouble}!Manipulators.cpp@{Manipulators.cpp}}
+\doxysubsubsection{\texorpdfstring{roundDouble()}{roundDouble()}}
+{\footnotesize\ttfamily double round\+Double (\begin{DoxyParamCaption}\item[{double \&}]{solution,  }\item[{int \&}]{precise }\end{DoxyParamCaption})}
+
+The function rounds up a double to a precise double 
+\begin{DoxyParams}{Parameters}
+{\em double} & \&solution ampersand to address of double been rounded \\
+\hline
+{\em int} & \&precise int of numbers the function rounds to \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double returns a more precise double 
+\end{DoxyReturn}
